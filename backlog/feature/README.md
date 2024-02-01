@@ -16,5 +16,5 @@ Creation de backlog des tâches à réalisé
 - Réalisation de back-end
 - Réalisation des unit test
 - Réalisation de front-end
-- Determiné la régle de gestion
+- Réalisationde la régle de gestion
 - Création de rapport
