@@ -1,6 +1,6 @@
 <?php
  
-namespace Database\Seeders;
+namespace Database\Seeders\jalilSeeders;
  
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -15,8 +15,8 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-            \Database\Seeders\jalilSeeders\ProductSeeder::class,
-            \Database\Seeders\jalilSeeders\OrderSeeder::class,
+            ProductSeeder::class,
+            OrderSeeder::class,
         ]);
     }
 }
