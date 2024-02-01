@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\JalilControllers\ProductController;
+use App\Http\Controllers\JalilControllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[ProductController::class,'index'])->name('home');
+Route::get('/order/show/{id}',[OrderController::class,'show'])->name('orders.index');
